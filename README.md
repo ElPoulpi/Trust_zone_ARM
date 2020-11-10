@@ -16,6 +16,12 @@ Renseignement à propos des Trust zone sur les ARM
 
 ``TEE`` : Trusted Execution Environment
 
+``TZASC`` : TrustZone Address Space Controler
+
+``TZPC`` : TrustZone Protection Controler
+
+``TZMA`` : TrustZone Memory Adapter
+
 ## About trustZone
 
 Arm TrustZone est une technologie de sécurité qui commence dans le matériel de la puce du processeur Arm, qui est la base du **démarrage sécurisé**.
@@ -39,7 +45,7 @@ Aussi pour ARM, il faut bien distinguer:
 *	Cortex-M Micro-Controler
 *	Cortex-R RealTime
 
-On retrouve les "-A" "-M" dans beaucoup de denominations, par exemple Trusted Firmware-M (TF-M)  vs.  TF-A pour les Cortex-A.
+On retrouve les "-A" "-M" dans beaucoup de denominations, par exemple [Trusted Firmware-M (TF-M)  vs.  TF-A pour les Cortex-A.](https://developer.arm.com/ip-products/security-ip/trustzone)
 
 Feature/Architecture | TrustZone for Armv8-A | TrustZone for Armv8-M
 -------------------- | --------------------- | ---------------------
