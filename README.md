@@ -2,7 +2,7 @@
 
 Renseignement à propos des Trust zone sur les ARM
 
-**Sources**
+#### Sources
 
 ``site officiel`` [armDeveloper](https://developer.arm.com/ip-products/security-ip/trustzone)
 
@@ -12,7 +12,9 @@ Renseignement à propos des Trust zone sur les ARM
 
 ``Video`` [Secure partition managers](https://www.youtube.com/watch?v=72OtwkavOvM)
 
-**Acronyms**
+``Image`` [TrustZone.png](https://developer.arm.com/ip-products/security-ip/trustzone/trustzone-for-cortex-m)
+
+#### Acronyms
 
 ``REE`` : Rich Execution environments
 
