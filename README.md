@@ -61,4 +61,4 @@ Software | Trusted Firmware-A (and third-party TEEs) | Arm Keil MDK, CMSIS, Arm 
 
 ### Schema about architecture:
 
-![TrustZone](TrustZone.jpg)
+![TrustZone](TrustZone.png)
