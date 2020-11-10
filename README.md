@@ -40,3 +40,14 @@ Aussi pour ARM, il faut bien distinguer:
 *	Cortex-R RealTime
 
 On retrouve les "-A" "-M" dans beaucoup de denominations, par exemple Trusted Firmware-M (TF-M)  vs.  TF-A pour les Cortex-A.
+
+Feature/Architecture | TrustZone for Armv8-A | TrustZone for Armv8-M
+-------------------- | --------------------- | ---------------------
+Additional security states | SEL0 - Trusted Apps SEL1 - Trusted OS EL3 - Trusted Boot and Firmware (Armv8-A) |	Secure thread - Trusted code/data Secure handler - Trusted device drivers, RTOS, Library managers...
+Secure interrupts |	Yes |	Yes (Fast)
+State transition (Boundary crossing) | Software transition | Hardware transition (Fast)
+Memory management |	Virtual memory MMU with secure attributes |	Secure Attribution Unit (SAU) and MPU memory partitions
+System interconnect security | Yes | Yes
+Secure code, data and memory | Yes | Yes
+Trusted boot | Yes | Yes
+Software | Trusted Firmware-A (and third-party TEEs) | Arm Keil MDK, CMSIS, Arm Mbed OS, Trusted Firmware-M and third-party software
