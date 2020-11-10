@@ -10,6 +10,8 @@ Renseignement à propos des Trust zone sur les ARM
 
 ``Video`` [ARM TrustZone for dummies](https://www.youtube.com/watch?v=ecBByjwny3s)
 
+``Video`` [Secure partition managers](https://www.youtube.com/watch?v=72OtwkavOvM)
+
 **Acronyms**
 
 ``REE`` : Rich Execution environments
@@ -22,9 +24,8 @@ Renseignement à propos des Trust zone sur les ARM
 
 ``TZMA`` : TrustZone Memory Adapter
 
-## About trustZone
 
-Arm TrustZone est une technologie de sécurité qui commence dans le matériel de la puce du processeur Arm, qui est la base du **démarrage sécurisé**.
+## About trustZone
 
 Arm TrustZone is an embedded security technology that **starts at the hardware level** by creating two environments that can run simultaneously on a single core: a **secure world** and a **not-as-secure world** (non-secure world)
 
@@ -33,7 +34,7 @@ Arm TrustZone is an embedded security technology that **starts at the hardware l
 TrustZone is based on the principle of **least privilege**, which means that system modules like drivers and applications do not have access to a resource unless necessary.
 
 > **Rappel du principe de ``last privilege``**:
-Service et éxécutable doivent être configurés et intégrés adin d'accorder le strict nécessaire en privilège .
+Service et éxécutable doivent être configurés et intégrés afin d'accorder le strict nécessaire en privilège .
 >> **Les conséquences sont donc limitées aux privilèges octroyés.**
 
 TrustZone includes a **Secure Boot Sequence** verifies secure boot images. Images can be **cryptographically** authenticated using public and private keys. Once the system has finished booting up, the two OSes can communicate via a monitor kernel mode, which behaves much like a context switch.
