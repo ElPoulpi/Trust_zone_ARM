@@ -58,3 +58,7 @@ System interconnect security | Yes | Yes
 Secure code, data and memory | Yes | Yes
 Trusted boot | Yes | Yes
 Software | Trusted Firmware-A (and third-party TEEs) | Arm Keil MDK, CMSIS, Arm Mbed OS, Trusted Firmware-M and third-party software
+
+### Schema about architecture:
+
+![TrustZone](TrustZone.jpg)
