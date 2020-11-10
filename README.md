@@ -10,6 +10,12 @@ Renseignement à propos des Trust zone sur les ARM
 
 ``Video`` [ARM TrustZone for dummies](https://www.youtube.com/watch?v=ecBByjwny3s)
 
+**Acronyms**
+
+``REE`` : Rich Execution environments
+
+``TEE`` : Trusted Execution Environment
+
 ## About trustZone
 
 Arm TrustZone est une technologie de sécurité qui commence dans le matériel de la puce du processeur Arm, qui est la base du **démarrage sécurisé**.
@@ -24,7 +30,9 @@ TrustZone is based on the principle of **least privilege**, which means that sys
 Service et éxécutable doivent être configurés et intégrés adin d'accorder le strict nécessaire en privilège .
 >> **Les conséquences sont donc limitées aux privilèges octroyés.**
 
-TrustZone includes a **Secure Boot Sequence** verifies secure boot images. Images can be cryptographically authenticated using public and private keys. Once the system has finished booting up, the two OSes can communicate via a monitor kernel mode, which behaves much like a context switch.
+TrustZone includes a **Secure Boot Sequence** verifies secure boot images. Images can be **cryptographically** authenticated using public and private keys. Once the system has finished booting up, the two OSes can communicate via a monitor kernel mode, which behaves much like a context switch.
+
+***Although no device can be made entirely hack-proof, TrustZone makes it much more difficult.***
 
 Aussi pour ARM, il faut bien distinguer:
 * Cortex-A  Micro-Processeur
