@@ -1,6 +1,6 @@
 # <ins>Trust_zone_ARM </ins>
 
-Renseignement à propos des Trust zone sur les ARM
+Renseignement à propos des TrustZone sur les ARM
 
 #### Sources
 
@@ -9,6 +9,8 @@ Renseignement à propos des Trust zone sur les ARM
 ``Article`` [About trustZone](https://www.microcontrollertips.com/embedded-security-brief-arm-trustzone-explained/)
 
 ``Article`` [Introduction to Trusted Execution Environment](https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html)
+
+``Video`` [Why do we need TrustZone](https://youtu.be/5D2TJztL4CE)
 
 ``Video`` [ARM TrustZone for dummies](https://www.youtube.com/watch?v=ecBByjwny3s)
 
