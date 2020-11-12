@@ -10,6 +10,8 @@ Renseignement à propos des TrustZone sur les ARM
 
 ``Article`` [Introduction to Trusted Execution Environment](https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html)
 
+``Presentation`` & ``Images`` [Using TrustZone for ARMv8-M](https://www2.keil.com/docs/default-source/default-document-library/using_trustzone_on_arm_cortex-m23_and_cortex-m33.pdf?sfvrsn=2)
+
 ``Video`` [Why do we need TrustZone](https://youtu.be/5D2TJztL4CE)
 
 ``Video`` [ARM TrustZone for dummies](https://www.youtube.com/watch?v=ecBByjwny3s)
@@ -80,4 +82,12 @@ Software | Trusted Firmware-A (and third-party TEEs) | Arm Keil MDK, CMSIS, Arm 
 
 ## About architecture:
 
-![TrustZone](Images/TrustZone.png)
+#### Cortex-A
+![TrustZone_cortex-A](Images/Schemas_TZ_cortex-A.PNG)
+
+> ENTER DESCRIPTION
+
+#### Cortex-M
+![TrustZone](Images/Schemas_TZ_cortex-M.PNG)
+
+> ENTER DESCRIPTION
